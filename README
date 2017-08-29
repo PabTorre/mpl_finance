@@ -1,7 +1,9 @@
-This module consists of code extracted from the deprecated matplotlib.finance
-module along with a few examples of usage.
 
-The code is provides as is and it basically un-maintained.
+This module forks the deprecated matplotlib.finance. 
+With the purpose of integrating the functionalities of this module into pandas. 
 
-If you are interested in maintaining the code please get in touch
-via matplotlib-devel@python.org
+Goals: 
+   1. Remove all functionality that is duplicate in pandas. 
+   2. Build the Candlesticka and OHLC charts in a way that is easy to integrate 
+      with the classes found in into pandas.DataFrame.plotting._core 
+   3. Integrate into pandas plotting and terminate this module. 
